@@ -27,9 +27,9 @@ function setup() {
   dog.scale=0.15;
 
   //create feed the dog button here
-  feedDog=createButton("Feed The Dog");
-  feedDog.position(700,95);
-  feedDog.mousePressed(feedDog);
+  feedButton=createButton("Feed The Dog");
+  feedButton.position(700,95);
+  feedButton.mousePressed(feedDog);
 
   addFood=createButton("Add Food");
   addFood.position(800,95);
